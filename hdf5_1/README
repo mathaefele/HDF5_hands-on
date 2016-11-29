@@ -1,0 +1,10 @@
+HDF5 Tutorial 1/3
+=================
+
+Examine the source code, compile and run it:
+make
+./hdf5_ex1
+
+Examine the output file example.h5 with h5ls and h5dump command line tools
+
+Modify the program to write an additional dataset containing a 3D data of size Nx * Ny * Nz

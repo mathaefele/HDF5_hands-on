@@ -1,0 +1,6 @@
+HDF5 Tutorial 2/3
+=================
+
+Starting from the program written in hdf5_1 (or the solution), modify it to write a single 2D slice 
+of the 3D array instead of the whole array.
+

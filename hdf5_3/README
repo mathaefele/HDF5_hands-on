@@ -1,0 +1,8 @@
+HDF5 Tutorial 3/3
+=================
+
+Start from the program you wrote for the exercice hdf5_2 (or the solution).
+
+Extend the size of the original 2D dataset such that the slice from the 3D array can fit in the additinal space you allocate. 
+Perform the partial IO that writes slice in this space instead of creating a dedicated dataset for the slice.
+
