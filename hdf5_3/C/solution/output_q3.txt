@@ -1,3 +1,5 @@
+# Result obtained for X-Y slice with z=2
+
 HDF5 "example.h5" {
 GROUP "/" {
    DATASET "IntArray" {
