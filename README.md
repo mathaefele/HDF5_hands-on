@@ -2,18 +2,17 @@
 4 simple exercice that manipulates dataspace with solution provided
 
 
-*Environment required on the poincare machine*
-module load gnu/4.7.2 hdf5/1.8.10_gnu47_serial
-
 *Environment required on the plafrim machine with guix*
 
 First initialize guix at the current version
 ```bash
 guix pull # The first one triggers an error
 guix pull # The second one is pretty long...
+hash guix
+guix install glibc-locales
 ```
 
-Then compile and run exercices inside a the following guix shell
+Then compile and run exercices inside the following guix shell
 ```bash
 guix shell hdf5@1.10.7 hdf5@1.10.7:fortran coreutils gcc-toolchain gfortran-toolchain
 ```
