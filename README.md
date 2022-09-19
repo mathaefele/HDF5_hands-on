@@ -5,6 +5,19 @@
 *Environment required on the poincare machine*
 module load gnu/4.7.2 hdf5/1.8.10_gnu47_serial
 
+*Environment required on the plafrim machine with guix*
+
+First initialize guix at the current version
+```bash
+guix pull # The first one triggers an error
+guix pull # The second one is pretty long...
+```
+
+Then compile and run exercices inside a the following guix shell
+```bash
+guix shell hdf5@1.10.7 hdf5@1.10.7:fortran coreutils gcc-toolchain gfortran-toolchain
+```
+
 *Exercices*
 0. Getting started
   * In directory HDF5 hands-on/hdf5-1, Examine the source code, compile and run it
